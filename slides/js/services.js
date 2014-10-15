@@ -4,27 +4,81 @@ angular.module('talkyApp.services', [])
 .service('slideData', [function() {
 
     var slides = [{
-        hero: 'topo-what?',
-        imgUrl: 'topowhat.gif',
+        hero: 'introduction',
+        imgUrl: 'bears-waving.gif',
         cls: 'bg-img inverted'
     },{
-        hero: 'jay-what?',
-        imgUrl: 'jaywhat.gif',
+        hero: 'our projects',
         cls: 'bg-img inverted'
     },{
-        hero: 'what-end?',
-        imgUrl: 'cat_screen.gif',
+        hero: 'NDI',
+        imgUrl: 'ndi.png',
         cls: 'bg-img inverted'
     },{
-        hero: 'whatever-end',
-        imgUrl: 'whatever.gif',
+        hero: 'Afghanistan Open Data',
+        imgUrl: 'afg-data-project.png',
         cls: 'bg-img inverted'
     },{
-        hero: 'whatever-it-takes-end',
-        imgUrl: 'ruthless.gif',
+        hero: 'Internews',
+        imgUrl: 'internews.png',
         cls: 'bg-img inverted'
     },{
-        marquee: 'the-end',
+        hero: 'for fun',
+        imgUrl: 'our-analysis.png',
+        cls: 'bg-img inverted'
+    },{
+        hero: 'our tools',
+        cls: 'bg-img inverted'
+    },{
+        hero: 'open by default',
+        imgUrl: 'cat-opens-door-for-dog.gif',
+        cls: 'bg-img inverted'
+    },{
+        title: 'github',
+        smallImgUrl: 'octocat.png',
+        cls: 'bg-img inverted'
+    },{
+        hero: 'R',
+        imgUrl: 'R.png',
+        cls: 'bg-img inverted'
+    },{
+        hero: 'Google Refine',
+        imgUrl: 'google-refine.png',
+        cls: 'bg-img inverted'
+    },{
+        hero: 'tabula',
+        imgUrl: 'tabula.jpg',
+        cls: 'bg-img inverted'
+    },{
+        hero: 'Python',
+        imgUrl: 'python.png',
+        cls: 'bg-img inverted'
+    },{
+        hero: 'the command line? (seriously)',
+        imgUrl: 'command-line.png',
+        cls: 'bg-img inverted'
+    },{
+        hero: 'avoid excel...',
+        imgUrl: 'excel-error.gif',
+        cls: 'bg-img inverted'
+    },{
+        hero: '...but not always',
+        imgUrl: 'googledocs.png',
+        cls: 'bg-img inverted'
+    },{
+        hero: 'but i\'m a journalist?!',
+        imgUrl: 'dog-typing.gif',
+        cls: 'bg-img inverted'
+    },{
+        hero: 'dirty data and the role of journalism',
+        imgUrl: 'baby-elephant-mud.gif',
+        cls: 'bg-img inverted'
+    },{
+        hero: 'what kind of storytelling',
+        imgUrl: 'plotly.png',
+        cls: 'bg-img inverted'
+    },{
+        marquee: 'the end',
         imgUrl: 'funvader.gif',
         cls: 'bg-img inverted'
     }];
