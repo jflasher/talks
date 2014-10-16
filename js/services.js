@@ -23,7 +23,7 @@ angular.module('talkyApp.services', [])
         imgUrl: 'internews.png',
         cls: 'bg-img inverted'
     },{
-        hero: 'for fun',
+        hero: 'for fun\n(election analysis)',
         imgUrl: 'our-analysis.png',
         cls: 'bg-img inverted'
     },{
@@ -31,10 +31,6 @@ angular.module('talkyApp.services', [])
         cls: 'bg-img inverted'
     },{
         hero: 'open by default',
-        imgUrl: 'cat-opens-door-for-dog.gif',
-        cls: 'bg-img inverted'
-    },{
-        title: 'github',
         smallImgUrl: 'octocat.png',
         cls: 'bg-img inverted'
     },{
@@ -50,14 +46,6 @@ angular.module('talkyApp.services', [])
         imgUrl: 'tabula.jpg',
         cls: 'bg-img inverted'
     },{
-        hero: 'Python',
-        imgUrl: 'python.png',
-        cls: 'bg-img inverted'
-    },{
-        hero: 'the command line? (seriously)',
-        imgUrl: 'command-line.png',
-        cls: 'bg-img inverted'
-    },{
         hero: 'avoid excel...',
         imgUrl: 'excel-error.gif',
         cls: 'bg-img inverted'
@@ -70,7 +58,7 @@ angular.module('talkyApp.services', [])
         imgUrl: 'dog-typing.gif',
         cls: 'bg-img inverted'
     },{
-        hero: 'dirty data and the role of journalism',
+        hero: 'the role of journalism',
         imgUrl: 'baby-elephant-mud.gif',
         cls: 'bg-img inverted'
     },{
