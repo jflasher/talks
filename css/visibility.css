@@ -506,3 +506,25 @@ h2 {
   right: 8%;
   cursor: pointer;
 }
+
+blockquote {
+  padding: 60px 80px 0;
+  font-size: 40px;
+  line-height: 1.5;
+  font-family: 'Crete Round', Georgia, Times, serif;
+}
+
+cite {
+  padding-right: 70px;
+  font-size: 30px;
+  float: right;
+  font-family: 'Crete Round', Georgia, Times, serif;
+}
+
+.texty.slide > .hero {
+  padding-top: 5%;
+}
+
+.encourage.slide > marquee {
+  color: orange;
+}
