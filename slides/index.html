@@ -2,7 +2,7 @@
 <HTML lang="en" data-ng-app="talkyApp">
 <HEAD>
     <meta charset="utf-8">
-    <title>make data look good, make people care</title>
+    <title>tcamp</title>
     <!-- link href="http://fonts.googleapis.com/css?family=Duru+Sans|Crete+Round:400,400italic" rel="stylesheet" type="text/css" -->
     <link href="css/visibility.css" rel="stylesheet" type="text/css" />
 </HEAD>
@@ -22,6 +22,9 @@
                 <h1 data-ng-if="slide.hero" class="hero">{{slide.hero}}</h1>
                 <marquee data-ng-if="slide.marquee"><h1>{{slide.marquee}}</h1></marquee>
                 <h1 data-ng-if="slide.title" class="mid">{{slide.title}}</h1>
+                <ul data-ng-if="slide.bullets" class="bullets">
+                  <li data-ng-repeat="bullet in slide.bullets">{{bullet}}</li>
+                </ul>
                 <blockquote data-ng-if="slide.quote">{{slide.quote}}</blockquote>
                 <cite data-ng-if="slide.cite">{{slide.cite}}</cite>
                 <h2 data-ng-if="slide.decks" data-ng-repeat="deck in slide.decks">{{deck}}</h2>

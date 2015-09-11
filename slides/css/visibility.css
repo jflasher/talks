@@ -528,3 +528,12 @@ cite {
 .encourage.slide > marquee {
   color: orange;
 }
+
+.bullets {
+  list-style: none;
+  padding: 60px 120px;
+  font-size: 60px;
+  font-family: 'Crete Round', Georgia, Times, serif;
+  font-weight: bold;
+  line-height: 2;
+}
