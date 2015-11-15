@@ -5,18 +5,11 @@ angular.module('talkyApp.services', [])
 
     var slides = [
     {
-        hero: 'this slide semi-intentionally left blank',
-        cls: 'inverted'
-    },{
         imgUrl: 'oil-bars.png',
         hero: 'make data look good, make people care',
         cls: 'bg-img'
     },{
         hero: 'introduction',
-        imgUrl: 'america.gif',
-        cls: 'bg-img inverted'
-    },{
-        hero: 'introduction (part 2)',
         imgUrl: 'bears-waving.gif',
         cls: 'bg-img inverted'
     },{
@@ -130,8 +123,6 @@ angular.module('talkyApp.services', [])
     },{
         imgUrl: 'nyt-maps.png'
     },{
-        imgUrl: 'nyt-map-ebola.png'
-    },{
         hero: 'mini-case study (and free idea)',
         cls: 'inverted'
     },{
@@ -161,9 +152,10 @@ angular.module('talkyApp.services', [])
         'informationisbeautiful.net/'],
         cls: 'inverted'
     },{
-        hero: '@drewbo19 drew@developmentseed.org',
+        hero: '@joseph_flasher flasher@developmentseed.org',
+        marquee: 'thanks @drewbo!',
         imgUrl: 'cat-hat.gif',
-        cls: 'bg-img inverted'
+        cls: 'bg-img inverted encourage'
     },{
         marquee: 'the end',
         imgUrl: 'funvader.gif',
@@ -171,6 +163,4 @@ angular.module('talkyApp.services', [])
     }];
 
     return slides;
-}])
-
-;
+}]);
